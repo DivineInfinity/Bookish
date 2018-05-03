@@ -42,7 +42,7 @@ function searchBook(bookList) {
     };
 
     const maxResults = 10;
-    const key = "AIzaSyCMR-bl22QDiBxq_NgMiVKI3-KNJ1Sb4xI";
+    const key = "API_KEY";
     url = "https://www.googleapis.com/books/v1/volumes?q="+search+"&maxResults="+maxResults+"&key="+key;
     xhttp.open("GET", url, false);
     xhttp.send();
